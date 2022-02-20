@@ -1,0 +1,23 @@
+library: spring-boot
+annotationLibrary: swagger2
+
+groupId: com.rcebrian.project
+artifactId: artifact
+
+sourceFolder: src/main/java
+basePackage: com.rcebrian.project.artifcat
+apiPackage: com.rcebrian.project.artifcat.service
+modelPackage: com.rcebrian.project.artifcat.dto
+
+modelNameSuffix: Dto
+booleanGetterPrefix: is
+hideGenerationTimestamp: true
+useTags: true
+
+generateSupportingFiles: false
+skipDefaultInterface: true
+openApiNullable: false
+interfaceOnly: true
+useBeanValidation: true
+dateLibrary: java8
+java8: true
