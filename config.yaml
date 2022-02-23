@@ -1,13 +1,13 @@
 library: spring-boot
 annotationLibrary: swagger2
 
-groupId: com.rcebrian.project
-artifactId: artifact
+groupId: com.fourthhub.backend.wscaggregator
+artifactId: api
 
 sourceFolder: src/main/java
-basePackage: com.rcebrian.project.artifcat
-apiPackage: com.rcebrian.project.artifcat.service
-modelPackage: com.rcebrian.project.artifcat.dto
+basePackage: com.fourthhub.backend.wscaggregator.users
+apiPackage: com.fourthhub.backend.wscaggregator.users.service
+modelPackage: com.fourthhub.backend.wscaggregator.users.domain.dto
 
 modelNameSuffix: Dto
 booleanGetterPrefix: is
